@@ -55,6 +55,7 @@ function AppContent() {
 
       <main className="page-content"> 
         <Routes>
+          <Route path="/" element={<Highlights />} />
           <Route path="/films" element={<Films searchTerm={searchTerm} />} />
           <Route path="/music" element={<Music searchTerm={searchTerm} />} />
           <Route path="/highlights" element={<Highlights />} />
