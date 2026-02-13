@@ -67,9 +67,11 @@ useEffect(() => {
       <div className="film-container">
         {filteredFilms.map(film => (
           <div key={film.id} className="film-item" onClick={() => setSelectedFilm(film)}>
-            <img className="film-image" src={film.image} alt={film.title} />
-            <h3 className="title">{film.title}</h3>
+            
+            <img className="film-image" src={film.image}  alt="" />
             <div className='display-info'>
+            <h3 className="title">{film.title}</h3>
+            
               <p className='detail'>Release: {film.release_date}</p>
               <p className='detail'>Director: {film.director}</p>
               
