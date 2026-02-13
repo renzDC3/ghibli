@@ -5,6 +5,7 @@ import './App.css';
 import * as Images from './images';
 import Home from './home';
 import Films from './films';
+import Music from './music';
 import About from './about';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 
@@ -28,7 +29,7 @@ function App() {
     <nav>
       <div> 
       <Link to="/home"><p>Ghibli</p>
-      <span>Watch</span></Link>
+      <span>Re</span></Link>
       <img className="nav-logo" src={Images.navlogo} alt="nav logo" />
       </div>
 
@@ -36,7 +37,7 @@ function App() {
             <input 
               className="search-input" 
               type="search" 
-              placeholder="Search movies..." 
+              placeholder="Search" 
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)} // 2. Update state on every keystroke
             />
@@ -52,7 +53,7 @@ function App() {
           
           <li><Link className="nav-link" to="/films">Films</Link></li>
           <li><Link className="nav-link" to="/music">Music</Link></li>
-          <li><Link className="nav-link" to="/about" >About</Link></li>
+          <li><Link className="nav-link" to="/about" >Highlight</Link></li>
         </div>
       </ul>
     </nav>
@@ -62,6 +63,7 @@ function App() {
       <Routes>
         <Route path="/films" element={<Films searchTerm={searchTerm} />} />
         <Route path="/home" element={<Home/>} />
+        <Route path="/music" element={<Music searchTerm={searchTerm} />} />
         <Route path="/films" element={<Films />} />
         <Route path="/about" element={<About />} />
       </Routes>

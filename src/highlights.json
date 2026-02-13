@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "category": "Award",
+    "title": "Oscar Winner",
+    "movie": "The Boy and the Heron",
+    "description": "Hayao Miyazaki's masterpiece won the Academy Award for Best Animated Feature, marking the studio's second Oscar win since Spirited Away.",
+    "date": "March 2024",
+    "image": "https://i.ibb.co/ZRmYgddr/unnamed.jpg"
+  },
+  {
+    "id": 2,
+    "category": "Historic",
+    "title": "Honorary Palme d'Or",
+    "movie": "Studio Ghibli",
+    "description": "The Cannes Film Festival awarded Studio Ghibli an honorary Palme d'Or, the first time in history this award was given to a group rather than an individual.",
+    "date": "May 2024",
+    "image": "https://i.ytimg.com/vi/KrRK6Uhc6vY/maxresdefault.jpg"
+  },
+  {
+    "id": 3,
+    "category": "Upcoming",
+    "title": "Ghibli Park Expansion",
+    "movie": "Valley of Witches",
+    "description": "The final area of the Ghibli Park, inspired by Kiki's Delivery Service and Howl's Moving Castle, is now officially open to the public.",
+    "date": "2024-2025",
+    "image": "https://www.designboom.com/twitterimages/uploads/2023/07/ghibli-studio-theme-park-japan-designboom-1200.jpg"
+  }
+]

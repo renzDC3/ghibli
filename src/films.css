@@ -16,11 +16,7 @@
     }
 }
 
-.film{
-  
 
-    
-}
 .film-container{
     display: flex;
     flex-wrap: wrap;
@@ -50,7 +46,7 @@ max-width: 220px;
     
 }
 
-.film-container :hover {
+.film-item:hover {
     transition: 0.3s;
     transform: scale(1.03);
 
@@ -72,7 +68,7 @@ max-width: 220px;
 
 
 .title {
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family:Arial, Helvetica, sans-serif;
     color: rgb(190, 189, 74);
     font-size: 15px;
     margin-bottom: 5px;

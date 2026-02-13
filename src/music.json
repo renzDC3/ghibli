@@ -1,0 +1,120 @@
+[
+  {
+    "id": 1,
+    "title": "One Summer's Day",
+    "movie": "Spirited Away",
+    "composer": "Joe Hisaishi",
+    "youtubeId": "TK1Ij_-mank",
+    "cover":"https://i.scdn.co/image/ab67616d0000b273fd220b07117400ccbc85ed96"
+  },
+   {
+    "id": 2,
+    "title": "Spinning Globe /  地球儀",
+    "movie": "The Boy and the Heron",
+    "composer": "Kenshi Yonezu",
+    "youtubeId": "abKcYyQ1V7Y",
+    "cover":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNBkZD7VAtotv-5_UEq6Xng9Sz4q-vsXT1Fg&s"
+  },
+  {
+    "id": 3,
+    "title": "Become the Wind",
+    "movie": "The Cat Returns",
+    "composer": "Ayano Tsuji",
+    "youtubeId": "PWYhLWBPzaM",
+    "cover":"https://i1.sndcdn.com/artworks-000136110567-dd3oq6-t500x500.jpg"
+  },
+  
+ {
+    "id": 4,
+    "title": "Merry Go Round Of Life ",
+    "movie": "Howl's Moving Castle",
+    "composer": "Joe Hisaishi",
+    "youtubeId": "f7SS57LFPco",
+    "cover":"https://static0.gamerantimages.com/wordpress/wp-content/uploads/2022/07/Howls-Moving-Castle.jpg?q=50&fit=crop&w=825&dpr=1.5"
+  },
+  {
+    "id": 5,
+    "title": "Path of the Wind",
+    "movie": "My Neighbor Totoro",
+    "composer": "Joe Hisaishi",
+    "youtubeId": "MZgBjQFMPvk",
+    "cover":"https://i.scdn.co/image/ab67616d0000b2734f99062a360ed511c4d34678"
+  },
+  {
+    "id": 6,
+    "title": "kimi wo nosete/Carrying You",
+    "movie": "Castle in the Sky",
+    "composer": "Joe Hisaishi",
+    "youtubeId": "pbkHP3ortJ0",
+    "cover":"https://cdn.shopify.com/s/files/1/0875/0598/files/Castle-in-the-sky3.jpg?v=1508067234"
+  },
+  {
+   "id": 7,
+    "title": "A Journey",
+    "movie": "The Wind Rises",
+    "composer": "Joe Hisaishi",
+    "youtubeId": "qYNvTX_ioYo",
+    "cover":"https://static0.gamerantimages.com/wordpress/wp-content/uploads/2022/07/The-Wind-Rises.jpg?q=50&fit=crop&w=825&dpr=1.5"
+  },
+  
+     {
+    "id": 8,
+    "title": "The Bygone Days",
+    "movie": "Porco Rosso",
+    "composer": "Joe Hisaishi",
+    "youtubeId": "vlBBwAVleg4",
+    "cover":"https://i1.sndcdn.com/artworks-000106531987-0o3s0q-t500x500.jpg"
+  },
+  
+  {
+    "id": 9,
+    "title": "Two People",
+    "movie": "Grave Of The Fireflies",
+    "composer": "Michio Mamiya",
+    "youtubeId": "SgceKbNeehU",
+    "cover":"https://i.ytimg.com/vi/SgceKbNeehU/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARUAAAAAGAElAADIQj0AgKJD8AEB-AH-CYAC0AWKAgwIABABGHIgRCgsMA8=&rs=AOn4CLCmn1gz-5dKeP3TREvHu95jMLo18A"
+  },
+  {
+    "id": 10,
+    "title": "Arrietty’s Song",
+    "movie": "Arriety",
+    "composer": "Cécile Corbe",
+    "youtubeId": "hYzGr5zibYI",
+    "cover":"https://static0.gamerantimages.com/wordpress/wp-content/uploads/2022/07/The-Secret-World-of-Arrietty.jpg?q=50&fit=crop&w=825&dpr=1.5"
+  },
+
+  {
+    "id": 11,
+    "title": "Summer of Farewells ",
+    "movie": "From Up on Poppy Hill",
+    "composer": "Koichi Sakata",
+    "youtubeId": "BH-StGQwBns",
+    "cover":"https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/11/from-up-on-poppy-hill.jpg?q=50&fit=crop&w=825&dpr=1.5"
+    
+  },
+    {
+    "id": 12,
+    "title":"The Legend Of Ashitaka Theme ",
+    "movie":"Princess Mononoke",
+    "composer":"Joe Hisaishi",
+    "youtubeId": "y1MyXypbVho",
+    "cover":"https://static0.gamerantimages.com/wordpress/wp-content/uploads/2022/07/Princess-Mononoke.jpg?q=50&fit=crop&w=825&dpr=1.5"
+  },
+  {
+    "id": 14,
+    "title": "On A Clear Day",
+    "movie": "Kiki’s Delivery Service",
+    "composer":"Joe Hisaishi",
+    "youtubeId":"sjlygahIRFA",
+    "cover":"https://static0.gamerantimages.com/wordpress/wp-content/uploads/2022/07/Kiki%E2%80%99s-Delivery-Service.jpg?q=50&fit=crop&w=825&dpr=1.5"
+  },
+   {
+    "id": 15,
+    "title": "Legend Of Wind",
+    "movie": "Nausicaa Of The Valley Of Wind",
+    "composer":"Joe Hisaishi",
+    "youtubeId":"U0V5GdEGd-4",
+    "cover":"https://static0.gamerantimages.com/wordpress/wp-content/uploads/2022/07/_Nausicaa-of-the-Valley-of-Wind.jpg?q=50&fit=crop&w=825&dpr=1.5"
+  }
+
+]

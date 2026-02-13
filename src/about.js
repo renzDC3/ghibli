@@ -1,11 +1,36 @@
-import React from "react";
+import React from 'react';
+import highlightData from './highlights.json';
+import './about.css';
 
-function about() {
+function About() {
   return (
-    <div style={{ backgroundColor: "green" }}>
-     
-      <p>about this site</p>
+    <div className="about-page">
+      <div className="about-header">
+        <h1 className='highlight'>Highlights</h1>
+ 
+      </div><br></br>
+
+
+
+      <div className="highlights-container">
+        {highlightData.map((item) => (
+          <div key={item.id} className="highlight-card">
+           
+            <div className="highlight-content">
+                <div>
+              <h3 className='context'>{item.title} -<span className="date-badge"> {item.date}</span></h3>
+              <h4 className="movie-name">{item.movie}</h4>
+              <p className='context'>{item.description}</p>
+              
+              </div>
+              <img className="img_H" src={item.image}/>
+
+            </div>
+          </div>
+        ))}
+      </div>
     </div>
-        );
-        };
-export default about;
+  );
+}
+
+export default About;
