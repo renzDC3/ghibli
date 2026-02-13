@@ -1,10 +1,17 @@
 import React from 'react';
 import highlightData from './highlights.json';
-import './about.css';
+import './highlights.css';
 
-function About() {
+function Highlights() {
+  
   return (
+    
     <div className="about-page">
+      <style>{`
+
+    .search-input { display: none !important; }
+    `}
+      </style>
       <div className="about-header">
         <h1 className='highlight'>Highlights</h1>
  
@@ -33,4 +40,4 @@ function About() {
   );
 }
 
-export default About;
+export default Highlights;

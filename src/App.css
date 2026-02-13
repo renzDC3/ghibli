@@ -46,8 +46,8 @@
     position: absolute;
     top: 10px;
     right: 60px;
-    width: 120px;
-    background-color: #d1dfd9;
+    width: 150px;
+    background-color: #d7e2d4;
     padding: 15px;
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.2);
@@ -64,9 +64,7 @@
     width: 100%; 
     text-align: center;
   }
-  .search-container{
-    max-width: 160px;
-  }
+  
   .nav-logo{
     display: none;
   }
@@ -98,22 +96,6 @@
 
 }
 
-nav {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-  padding: 0 20px;
-  padding: 15px;
-  box-shadow: 0 2px 5px rgb(68, 68, 68);;
-  background-color: rgb(231, 231, 231);
-  align-items: center;
- 
-  margin: 0 auto;
-
-}
 
 
 
@@ -169,18 +151,14 @@ nav div:nth-child(2){
   
 }
 
-.search-container{
-  margin-top: 2px;
 
-  
-}
 
 .search-input{
   height: 30px;
-  width: 80%;
+  width: 300px;
   border: none;
-  border-bottom-left-radius: 10px;
-  border-top-left-radius: 10px;
+  border-radius: 10px;
+
 }
 .bi{
   position: relative;
@@ -213,6 +191,7 @@ nav div:nth-child(2){
 
 nav {
   display: flex;
+  box-shadow: 0 2px 5px rgb(68, 68, 68);;
   justify-content: space-between; 
   align-items: center;
   position: sticky;
@@ -228,11 +207,5 @@ nav {
   width: 100%;
   max-width: 100%;
   background: linear-gradient(to left,#868686 , #f2efe6,#c2bfbf);
-  
+ 
 }
-
-
-
-
-
-

@@ -4,6 +4,7 @@ import './music.css';
 
 
 
+
 function Music({searchTerm = ""}) {
   const [currentTrack, setCurrentTrack] = useState(null);
   
@@ -11,6 +12,7 @@ function Music({searchTerm = ""}) {
     track.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
     track.movie.toLowerCase().includes(searchTerm.toLowerCase())
   );
+  
 
   return (
     <div className="music-body">
