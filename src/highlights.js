@@ -30,7 +30,7 @@ function Highlights() {
               <p className='context'>{item.description}</p>
               
               </div>
-              <img className="img_H" src={item.image}/>
+              <img className="img_H" src={item.image} alt="Ghibli movie highlight"/>
 
             </div>
           </div>

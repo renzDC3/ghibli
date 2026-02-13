@@ -1,8 +1,7 @@
 
 
 import './films.css';
-import { db } from './firebase'; 
-import { doc, updateDoc, increment } from "firebase/firestore"; // Import DB tools
+
 import { useState, useEffect } from 'react';
 import filmsData from './films.json';
 

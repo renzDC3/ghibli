@@ -23,7 +23,7 @@ function Music({searchTerm = ""}) {
           <div className="player-info">
             <p>Now Playing: <strong>{currentTrack.title}</strong></p>
             <button class="button-close"onClick={() => setCurrentTrack(null)}>Close</button>
-          <iframe className='embed-vid'
+          <iframe className='embed-vid' title="Ghibli Music Player"
             src={`https://www.youtube.com/embed/${currentTrack.youtubeId}?autoplay=1&origin=${window.location.origin}`}
             frameBorder="0" 
             allow="autoplay; encrypted-media" 
@@ -38,6 +38,7 @@ function Music({searchTerm = ""}) {
         {filteredMusic.map(track => (
           <div key={track.id} className="track-card" onClick={() => setCurrentTrack(track)}>
              <div 
+             title='musicplay'
             className='play' 
             style={{ backgroundImage: `url(${track.cover})` }}>
             <i className="bi bi-play-circle-fill"></i>
