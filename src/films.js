@@ -1,7 +1,5 @@
 
-
 import './films.css';
-
 import { useState, useEffect } from 'react';
 import filmsData from './films.json';
 

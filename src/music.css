@@ -16,6 +16,7 @@
 @media (max-width:840px){
     .embed-vid{
     max-width: 300px;
+    max-height: 500px;
    }
 }
 
